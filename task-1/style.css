@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    border : 1px solid #82878e;
+    margin: 2rem;
+    padding: 1rem 1rem ;
+    border-radius: 0.5rem;
+    background : transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115 ,119 , 0.5);
+    
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.heading h1 {
+    
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2em;
+   color: #5dbdea;
+   /* animation-name: anime;
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite; */
+}
+
+/* @keyframes anime{
+    0% ,100% {
+        color: #5dbdea;
+        text-shadow : 1px 1px 2px rgb(255, 0, 238), 0 0 1em rgb(0, 255, 38), 0 0 0.2em rgb(212, 255, 0);
+    }
+    10%, 20%, 30%, 40% {
+        color: #5db55d;
+        text-shadow : 1px 1px 2px rgb(234, 255, 0), 0 0 1em rgba(0, 0, 255, 0.388), 0 0 0.2em rgb(230, 0, 255);
+    }
+    50%,60%,70%,80%,90% {
+        color: rgb(164, 0, 0);
+        text-shadow : 1px 1px 2px rgb(24, 225, 45,0.1), 0 0 1em rgba(10, 57, 0.388), 0 0 0.2em rgb(23, 130, 255,0.45);
+
+    }
+} */
+#InputBox{
+    width: 400px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border: none;
+    padding: 0rem 0.75rem;
+    background: transparent;
+    box-shadow: 1px 0px 5px 0px rgb(127, 122, 127);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.buttons button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+
+.buttons #btn {
+   background-color: lightblue;
+   color: rgb(1, 5, 65);
+}
+
+.buttons .oprator {
+    color: aqua;
+}
